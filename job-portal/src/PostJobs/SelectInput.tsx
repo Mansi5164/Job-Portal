@@ -1,14 +1,7 @@
 import { Combobox, InputBase, useCombobox, ScrollArea } from '@mantine/core';
 import { useEffect, useState } from 'react';
 
-const groceries = [
-  '🍎 Apples',
-  '🍌 Bananas',
-  '🥦 Broccoli',
-  '🥕 Carrots',
-  '🍫 Chocolate',
-  '🍇 Grapes',
-];
+
 
 const SelectInput = (props:any) => {
     useEffect(()=>{

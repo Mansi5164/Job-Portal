@@ -4,16 +4,19 @@ import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css';
 import '@mantine/tiptap/styles.css';
 import HomePage from './Pages/HomePage';
-import FindJobs from './Pages/findJobs';
+import FindJobs from './Pages/FindJobsPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import FindTalentPage from './Pages/FindTalentPage';
 import TalentProfilePage from './Pages/talentProfilePage';
 import PostJobPages from './Pages/PostJobPages';
-import JobDescPage from './Pages/JobDescPage';
+import JobDescPage from './Pages/JobPage';
 import ApplyJobPage from './Pages/ApplyJobPage';
 import CompanyPage from './Pages/CompanyPage';
+import PostedJobPage from './Pages/PostedJobPage';
+import '@mantine/dates/styles.css';
+import JobHistoryPage from './Pages/JobHistoryPage';
 
 
 function App() {
@@ -43,6 +46,8 @@ function App() {
           <Route path='/jobs' element={<JobDescPage/>}/>
           <Route path='/apply-job' element={<ApplyJobPage/>}/>
           <Route path='/post-job' element={<PostJobPages/>}/>
+          <Route path='/posted-job' element={<PostedJobPage/>}/>
+          <Route path='/job-history' element={<JobHistoryPage/>}/>
           <Route path='/talent-profile' element={<TalentProfilePage/>}/>
           <Route path='*' element={<HomePage/>}/>
         </Routes>

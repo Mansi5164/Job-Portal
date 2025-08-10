@@ -38,7 +38,7 @@ const DreamJob = () => {
                             <Avatar>+9K</Avatar>
                         </Avatar.Group>
                     </div>
-                    <div className="absolute -left-5 w-fit top-[28%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md gap-3 flex flex-col">
+                    <div className="absolute -left-14 w-fit top-[28%] border-bright-sun-400 border rounded-lg p-2 backdrop-blur-md gap-3 flex flex-col">
                         <div className='flex gap-2 items-center'>
                             <div className="w-10 h-10 p-1 bg-mine-shaft-900 rounded-lg">
                                 <img src="/Google.png" alt=""/>
