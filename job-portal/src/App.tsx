@@ -17,6 +17,8 @@ import CompanyPage from './Pages/CompanyPage';
 import PostedJobPage from './Pages/PostedJobPage';
 import '@mantine/dates/styles.css';
 import JobHistoryPage from './Pages/JobHistoryPage';
+import SignUpPage from './Pages/SignUpPage';
+import ProfilePage from './Pages/ProfilePage';
 
 
 function App() {
@@ -49,6 +51,9 @@ function App() {
           <Route path='/posted-job' element={<PostedJobPage/>}/>
           <Route path='/job-history' element={<JobHistoryPage/>}/>
           <Route path='/talent-profile' element={<TalentProfilePage/>}/>
+          <Route path='/signup' element={<SignUpPage/>}/>
+          <Route path='/login' element={<SignUpPage/>}/>
+          <Route path='/profile' element={<ProfilePage/>}/>
           <Route path='*' element={<HomePage/>}/>
         </Routes>
         <Footer />

@@ -21,8 +21,8 @@ const TalentCard = (props:any)=>{
                             <Avatar size='lg' src={`/${props.image}.png`} alt=""/>
                         </div>
                         <div>
-                            <div className='font-semibold'>${props.name}</div>
-                            <div className='text-xs text-mine-shaft-300'>${props.role} &bull; ${props.company}</div>
+                            <div className='font-semibold'>{props.name}</div>
+                            <div className='text-xs text-mine-shaft-300'>{props.role} &bull; {props.company}</div>
                         </div>
                     </div>
                     <IconHeart className='text-mine-shaft-300 cursor-pointer' />
